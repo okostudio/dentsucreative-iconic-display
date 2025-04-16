@@ -11,12 +11,13 @@ body{
 
 .screenshot{
   position: relative;
-  width: 1210px;
+  max-width: 1210px;
+  min-width: 320px;
   height: 3736px;
   margin: 0 auto;
   background-image: url(/website-screenshot-desktop.jpg);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: right top;
 }
 
 .banners{
