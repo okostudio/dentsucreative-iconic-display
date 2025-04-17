@@ -6,6 +6,9 @@ document.querySelector('#app').innerHTML = `
       <video class="banner mrec" width="300" height="250" autoplay muted poster="/iconic-300x250.jpg">
         <source src="/iconic-300x250.webm" type="video/webm">
       </video>
+      <video class="banner halfpage" width="300" height="600" controls poster="/iconic-300x600.jpg">
+        <source src="/iconic-300x600.webm" type="video/webm">
+      </video>
       <video class="banner halfpage" width="300" height="600" autoplay muted poster="/iconic-300x600.jpg">
         <source src="/iconic-300x600.webm" type="video/webm">
       </video>
