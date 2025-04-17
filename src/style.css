@@ -4,7 +4,7 @@ body{
   min-width: 100vw;
   min-height: 100vh;
   line-height: 1;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   background-color: #eee;
 
 }
@@ -39,4 +39,12 @@ body{
 .halfpage{
   position: absolute;
   top: 2240px;
+}
+
+
+.warning{
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
 }
