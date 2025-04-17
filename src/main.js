@@ -3,8 +3,12 @@ import './style.css'
 document.querySelector('#app').innerHTML = `
   <div class="screenshot">
     <div class="banners">
-      <iframe class="banner mrec" width="300" height="250" src="/post-event-videos-300x250/index.html"></iframe>
-      <iframe class="banner halfpage" width="300" height="600" src="/post-event-videos-300x600/index.html"></iframe>
+      <video class="banner mrec" width="300" height="250" autoplay muted>
+        <source src="/iconic-300x250.webm" type="video/webm">
+      </video>
+      <video class="banner halfpage" width="300" height="600" autoplay muted>
+        <source src="/iconic-300x600.webm" type="video/webm">
+      </video>
     </div> 
   </div>
 `

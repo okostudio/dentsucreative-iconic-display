@@ -26,17 +26,17 @@ body{
   right: 2px;
 }
 
-iframe.banner{
+.banner{
   position: relative;
   border: 0;
   outline: 0
 }
 
-.banner.mrec{
+.mrec{
   position: absolute;
   top: 1433px;
 }
-.banner.halfpage{
+.halfpage{
   position: absolute;
   top: 2240px;
 }
